@@ -2,12 +2,12 @@ import React from "react";
 
 const aboutItems = [
   {
-    label: "Degrees Done",
-    number: 2,
-  },
-  {
     label: "Years of experience",
     number: 3,
+  },
+  {
+    label: "Degrees Done",
+    number: 2,
   },
 ];
 const About = () => {
@@ -16,11 +16,13 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb- md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Deeksha, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Welcome! I&apos;m Deeksha Sareen, a Full Stack Developer with a
+            passion for building scalable, high-performance web applications.
+            With expertise in Angular, RxJS, NestJS, and MongoDB, I craft
+            seamless user experiences and robust backend systems. I thrive on
+            solving complex problems, optimizing performance, and continuously
+            learning new technologies to drive innovation. Let’s build something
+            amazing together!
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

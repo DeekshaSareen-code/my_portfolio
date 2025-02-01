@@ -44,13 +44,15 @@ const Body = () => {
           </div>
         </div>
         <div className="hidden md:block">
-          <figure className="relative w-[350px] h-[350px] ml-auto rounded-3xl overflow-hidden shadow-2xl">
-            <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-xl"></div>
+          <figure className="relative w-[300px] h-[450px] ml-auto rounded-lg overflow-hidden shadow-2xl m-auto">
+            <div className="absolute inset-0 bg-gradient-to-l from-zinc-900 via-transparent to-zinc-900 rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900 rounded-lg"></div>
+
             <img
-              src="/images/personal2.jpeg"
-              alt="Deeksha Saren"
-              className="w-full h-full object-cover rounded-xl"
-              width={650}
+              src="/images/deeksha.jpeg"
+              alt="Deeksha Sareen"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110 "
+              width={450}
               height={650}
             />
           </figure>
