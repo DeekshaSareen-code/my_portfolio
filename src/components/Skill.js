@@ -1,21 +1,49 @@
 import React from "react";
 import SkillCard from "./SkillCard";
+import { ButtonOutline } from "./Button";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/images/react.svg",
+    label: "React",
+    desc: "Library",
   },
   {
-    imgSrc: "/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
+    imgSrc: "/images/redux.svg",
+    label: "Redux",
+    desc: "State Management",
   },
+  {
+    imgSrc: "/images/nextjs.svg",
+    label: "NextJS",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/angular.svg",
+    label: "Angular",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/nestjs.svg",
+    label: "NestJS",
+    desc: "Framework",
+  },
+
+  {
+    imgSrc: "/images/ngrx.svg",
+    label: "NGRX",
+    desc: "State Management",
+  },
+
   {
     imgSrc: "/images/javascript.svg",
     label: "JavaScript",
-    desc: "Interaction",
+    desc: "Language",
+  },
+  {
+    imgSrc: "/images/typescript.svg",
+    label: "Typesript",
+    desc: "Language",
   },
   {
     imgSrc: "/images/nodejs.svg",
@@ -33,13 +61,25 @@ const skillItem = [
     desc: "Database",
   },
   {
-    imgSrc: "/images/react.svg",
-    label: "React",
-    desc: "Framework",
+    imgSrc: "/images/sql.svg",
+    label: "SQL",
+    desc: "Database",
   },
+
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
+    desc: "User Interface",
+  },
+
+  {
+    imgSrc: "/images/git.svg",
+    label: "GIT",
+    desc: "Version Control",
+  },
+  {
+    imgSrc: "/images/css3.svg",
+    label: "CSS",
     desc: "User Interface",
   },
 ];
@@ -47,8 +87,8 @@ const Skill = () => {
   return (
     <section id="skills" className="section">
       <div className="container">
-        <h2 className="headline-2">Essential Tools I use </h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] ">
+        <h2 className="headline-2 reveal-up">Essential Tools I use </h2>
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
           Discouver the powerful tools and technologies I use to create
           exceptional, high-performing websites & applications
         </p>
@@ -58,10 +98,19 @@ const Skill = () => {
               imgSrc={imgSrc}
               label={label}
               desc={desc}
-              classes={undefined}
+              classes="reveal-up"
               key={key}
             />
           ))}
+          <div className="flex flex-col items-center mt-5">
+            <ButtonOutline
+              href="#about"
+              label="AND MORE"
+              icon="read_more"
+              target={undefined}
+              classes={"text-sky-400"}
+            />
+          </div>
         </div>
       </div>
     </section>

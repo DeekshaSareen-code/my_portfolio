@@ -113,3 +113,33 @@ body {
 .text-field::placeholder {
   @apply text-zinc-400;
 }
+
+.reveal-up {
+  @apply translate-y-20;
+}
+
+.gallery-items {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+  padding-bottom: 10px;
+  width: 100%;
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+/* Custom scrollbar */
+.gallery-items::-webkit-scrollbar {
+  height: 8px;
+}
+
+.gallery-items::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+.gallery-items::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+}

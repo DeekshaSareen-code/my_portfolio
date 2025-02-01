@@ -1,64 +1,98 @@
-import React from "react";
+import React, { useRef } from "react";
 import GalleryCard from "./GalleryCard";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(ScrollTrigger);
 
 const gallery = [
   {
-    content:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
-    name: "Sophia Ramirez",
-    imgSrc: "/images/people-1.jpg",
-    company: "PixelForge",
+    imgSrc: "/images/paintings/1.jpeg",
   },
   {
-    content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    name: "Ethan Caldwell",
-    imgSrc: "/images/people-2.jpg",
-    company: "NexaWave",
+    imgSrc: "/images/paintings/2.jpeg",
   },
   {
-    content:
-      "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
-    name: "Liam Bennett",
-    imgSrc: "/images/people-3.jpg",
-    company: "CodeCraft",
+    imgSrc: "/images/paintings/3.jpeg",
   },
   {
-    content:
-      "Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
-    name: "Noah Williams",
-    imgSrc: "/images/people-4.jpg",
-    company: "BrightWeb",
+    imgSrc: "/images/paintings/7.jpeg",
   },
   {
-    content:
-      "Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-    name: "Ava Thompson",
-    imgSrc: "/images/people-5.jpg",
-    company: "TechMosaic",
+    imgSrc: "/images/paintings/4.jpeg",
   },
   {
-    content:
-      "Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
-    name: "Jonathan",
-    imgSrc: "/images/people-6.jpg",
-    company: "Skyline Digital",
+    imgSrc: "/images/paintings/5.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/6.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/8.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/9.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/10.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/11.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/12.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/13.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/14.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/17.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/18.jpeg",
+  },
+  {
+    imgSrc: "/images/paintings/19.jpeg",
   },
 ];
+
 const Gallery = () => {
+  const scrollRef = useRef(null);
+  useGSAP(() => {
+    gsap.to(".scrub-slide", {
+      scrollTrigger: {
+        trigger: ".scroll-container",
+        start: "top 80%",
+        end: "bottom 20%",
+        scrub: true,
+        pin: false,
+      },
+      x: "-50%",
+    });
+  });
   return (
     <section className="section overflow-hidden" id="gallery">
       <div className="container">
-        <h2 className="headline-2 mb-8">My Gallery</h2>
-        <div className="flex items-stretch gap-3 w-fit">
-          {gallery.map(({ content, name, imgSrc }, key) => (
-            <GalleryCard
-              content={content}
-              imgSrc={imgSrc}
-              name={name}
-              key={key}
-            />
-          ))}
+        <h2 className="headline-2 mb-8 reveal-up">My Gallery</h2>
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] ">
+          I'm a software engineer by profession & a passionate painter. Checkout
+          some of my artwork.
+        </p>
+        <div
+          className="scroll-container overflow-x-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-900"
+          ref={scrollRef}
+        >
+          <div
+            className="scrub-slide flex items-stretch gap-3"
+            style={{ width: "300%" }}
+          >
+            {gallery.map(({ imgSrc }, index) => (
+              <GalleryCard imgSrc={imgSrc} key={index} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

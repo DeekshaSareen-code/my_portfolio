@@ -3,22 +3,22 @@ import WordCard from "./WordCard";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    imgSrc: "/images/secret_santa_app.jpg",
+    title: "Secret Santa App",
+    tags: ["SCSS", "Typescript", "HTML", "Angular", "SQL", "NestJS"],
+    projectLink: "https://github.com/DeekshaSareen-code/secret-santa-app",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    imgSrc: "/images/olympic_dashboard_1.png",
+    title: "Olympic Analytics Dashboard",
+    tags: ["Python", "Matplotlib", "Numpy", "Pandas", "Dash"],
+    projectLink: "https://github.com/DeekshaSareen-code/Olympic-Data-Analysis",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    imgSrc: "/images/food_ordering.png",
+    title: "Food ordering app",
+    tags: ["Javascript", "React", "eCommerce", "Redux"],
+    projectLink: "https://github.com/DeekshaSareen-code/my_react",
   },
   {
     imgSrc: "/images/project-4.jpg",
@@ -43,7 +43,7 @@ const Work = () => {
   return (
     <section className="section" id="work">
       <div className="container">
-        <h2 className="headline-2 mb-8">My portfolio Highlights</h2>
+        <h2 className="headline-2 mb-8 reveal-up">My portfolio Highlights</h2>
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, index) => (
             <WordCard
@@ -52,7 +52,7 @@ const Work = () => {
               title={title}
               tags={tags}
               projectLink={projectLink}
-              classes={undefined}
+              classes="reveal-up"
             />
           ))}
         </div>

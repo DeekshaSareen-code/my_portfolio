@@ -9,7 +9,7 @@ const Body = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/personal.jpeg"
+                src="/images/personal2.jpeg"
                 width={40}
                 height={40}
                 alt="Deeksha Sareen Potrait"
@@ -30,8 +30,8 @@ const Body = () => {
             <ButtonPrimary
               label="Download CV"
               icon="download"
-              href={undefined}
-              target={undefined}
+              href="assets/Deeksha_Resume.pdf"
+              target="_blank"
               classes={undefined}
             />
             <ButtonOutline
@@ -47,7 +47,7 @@ const Body = () => {
           <figure className="relative w-[350px] h-[350px] ml-auto rounded-3xl overflow-hidden shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-xl"></div>
             <img
-              src="/images/personal.jpeg"
+              src="/images/personal2.jpeg"
               alt="Deeksha Saren"
               className="w-full h-full object-cover rounded-xl"
               width={650}
