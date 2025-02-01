@@ -65,13 +65,11 @@ const skillItem = [
     label: "SQL",
     desc: "Database",
   },
-
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
-
   {
     imgSrc: "/images/git.svg",
     label: "GIT",
@@ -81,6 +79,21 @@ const skillItem = [
     imgSrc: "/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/python.svg",
+    label: "Python",
+    desc: "Language",
+  },
+  {
+    imgSrc: "/images/java.svg",
+    label: "Java",
+    desc: "Language",
+  },
+  {
+    imgSrc: "/images/jest.svg",
+    label: "Jest",
+    desc: "Testing Framework",
   },
 ];
 const Skill = () => {
@@ -104,10 +117,10 @@ const Skill = () => {
           ))}
           <div className="flex flex-col items-center mt-5">
             <ButtonOutline
-              href="#about"
+              href="assets/Deeksha_Resume.pdf"
               label="AND MORE"
               icon="read_more"
-              target={undefined}
+              target="_blank"
               classes={"text-sky-400"}
             />
           </div>
