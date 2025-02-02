@@ -7,55 +7,55 @@ gsap.registerPlugin(ScrollTrigger);
 
 const gallery = [
   {
-    imgSrc: "/images/paintings/1.jpeg",
+    imgSrc: "my_portfolio/images/paintings/1.jpeg",
   },
   {
-    imgSrc: "/images/paintings/2.jpeg",
+    imgSrc: "my_portfolio/images/paintings/2.jpeg",
   },
   {
-    imgSrc: "/images/paintings/3.jpeg",
+    imgSrc: "my_portfolio/images/paintings/3.jpeg",
   },
   {
-    imgSrc: "/images/paintings/7.jpeg",
+    imgSrc: "my_portfolio/images/paintings/7.jpeg",
   },
   {
-    imgSrc: "/images/paintings/4.jpeg",
+    imgSrc: "my_portfolio/images/paintings/4.jpeg",
   },
   {
-    imgSrc: "/images/paintings/5.jpeg",
+    imgSrc: "my_portfolio/images/paintings/5.jpeg",
   },
   {
-    imgSrc: "/images/paintings/6.jpeg",
+    imgSrc: "my_portfolio/images/paintings/6.jpeg",
   },
   {
-    imgSrc: "/images/paintings/8.jpeg",
+    imgSrc: "my_portfolio/images/paintings/8.jpeg",
   },
   {
-    imgSrc: "/images/paintings/9.jpeg",
+    imgSrc: "my_portfolio/images/paintings/9.jpeg",
   },
   {
-    imgSrc: "/images/paintings/10.jpeg",
+    imgSrc: "my_portfolio/images/paintings/10.jpeg",
   },
   {
-    imgSrc: "/images/paintings/11.jpeg",
+    imgSrc: "my_portfolio/images/paintings/11.jpeg",
   },
   {
-    imgSrc: "/images/paintings/12.jpeg",
+    imgSrc: "my_portfolio/images/paintings/12.jpeg",
   },
   {
-    imgSrc: "/images/paintings/13.jpeg",
+    imgSrc: "my_portfolio/images/paintings/13.jpeg",
   },
   {
-    imgSrc: "/images/paintings/14.jpeg",
+    imgSrc: "my_portfolio/images/paintings/14.jpeg",
   },
   {
-    imgSrc: "/images/paintings/17.jpeg",
+    imgSrc: "my_portfolio/images/paintings/17.jpeg",
   },
   {
-    imgSrc: "/images/paintings/18.jpeg",
+    imgSrc: "my_portfolio/images/paintings/18.jpeg",
   },
   {
-    imgSrc: "/images/paintings/19.jpeg",
+    imgSrc: "my_portfolio/images/paintings/19.jpeg",
   },
 ];
 

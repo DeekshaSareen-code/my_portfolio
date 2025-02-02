@@ -9,7 +9,7 @@ const Body = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/public/images/personal2.jpeg"
+                src="my_portfolio/images/personal2.jpeg"
                 width={40}
                 height={40}
                 alt="Deeksha Sareen Potrait"
@@ -30,7 +30,7 @@ const Body = () => {
             <ButtonPrimary
               label="Download CV"
               icon="download"
-              href=".././assets/Deeksha_Resume.pdf"
+              href="my_portfolio/assets/Deeksha_Resume.pdf"
               target="_blank"
               classes={undefined}
             />
@@ -48,7 +48,7 @@ const Body = () => {
             <div className="absolute inset-0 bg-gradient-to-l from-zinc-900 via-transparent to-zinc-900 "></div>
 
             <img
-              src="images/deeksha.jpg"
+              src="my_portfolio/images/deeksha.jpg"
               alt="Deeksha Sareen"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-110 "
               width={450}

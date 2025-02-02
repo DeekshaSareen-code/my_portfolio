@@ -94,7 +94,12 @@ const Footer = () => {
 
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="/" className="logo reveal-up">
-            <img src="/images/logo.jpg" width={40} height={40} alt="logo"></img>
+            <img
+              src="my_portfolio/images/logo.jpg"
+              width={40}
+              height={40}
+              alt="logo"
+            ></img>
           </a>
           <p className="text-sm text-zinc-500 reveal-up">
             &copy;2025 | Made with

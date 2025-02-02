@@ -19,79 +19,79 @@ const skillItem = [
     desc: "Framework",
   },
   {
-    imgSrc: "images/angular.svg",
+    imgSrc: "my_portfolio/images/angular.svg",
     label: "Angular",
     desc: "Framework",
   },
   {
-    imgSrc: "images/nestjs.svg",
+    imgSrc: "my_portfolio/images/nestjs.svg",
     label: "NestJS",
     desc: "Framework",
   },
 
   {
-    imgSrc: "images/ngrx.svg",
+    imgSrc: "my_portfolio/images/ngrx.svg",
     label: "NGRX",
     desc: "State Management",
   },
 
   {
-    imgSrc: "images/javascript.svg",
+    imgSrc: "my_portfolio/images/javascript.svg",
     label: "JavaScript",
     desc: "Language",
   },
   {
-    imgSrc: "images/typescript.svg",
+    imgSrc: "my_portfolio/images/typescript.svg",
     label: "Typesript",
     desc: "Language",
   },
   {
-    imgSrc: "images/nodejs.svg",
+    imgSrc: "my_portfolio/images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
   },
   {
-    imgSrc: "images/expressjs.svg",
+    imgSrc: "my_portfolio/images/expressjs.svg",
     label: "ExpressJS",
     desc: "Node Framework",
   },
   {
-    imgSrc: "images/mongodb.svg",
+    imgSrc: "my_portfolio/images/mongodb.svg",
     label: "MongoDB",
     desc: "Database",
   },
   {
-    imgSrc: "images/sql.svg",
+    imgSrc: "my_portfolio/images/sql.svg",
     label: "SQL",
     desc: "Database",
   },
   {
-    imgSrc: "images/tailwindcss.svg",
+    imgSrc: "my_portfolio/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "images/git.svg",
+    imgSrc: "my_portfolio/images/git.svg",
     label: "GIT",
     desc: "Version Control",
   },
   {
-    imgSrc: "images/css3.svg",
+    imgSrc: "my_portfolio/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "images/python.svg",
+    imgSrc: "my_portfolio/images/python.svg",
     label: "Python",
     desc: "Language",
   },
   {
-    imgSrc: "images/java.svg",
+    imgSrc: "my_portfolio/images/java.svg",
     label: "Java",
     desc: "Language",
   },
   {
-    imgSrc: "images/jest.svg",
+    imgSrc: "my_portfolio/images/jest.svg",
     label: "Jest",
     desc: "Testing Framework",
   },
@@ -117,7 +117,7 @@ const Skill = () => {
           ))}
           <div className="flex flex-col items-center mt-5">
             <ButtonOutline
-              href=".././assets/Deeksha_Resume.pdf"
+              href="my_portfolio/assets/Deeksha_Resume.pdf"
               label="AND MORE"
               icon="read_more"
               target="_blank"
