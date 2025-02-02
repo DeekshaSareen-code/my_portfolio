@@ -117,7 +117,7 @@ const Skill = () => {
           ))}
           <div className="flex flex-col items-center mt-5">
             <ButtonOutline
-              href="assets/Deeksha_Resume.pdf"
+              href=".././assets/Deeksha_Resume.pdf"
               label="AND MORE"
               icon="read_more"
               target="_blank"
