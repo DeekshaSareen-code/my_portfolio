@@ -4,94 +4,94 @@ import { ButtonOutline } from "./Button";
 
 const skillItem = [
   {
-    imgSrc: "/images/react.svg",
+    imgSrc: "images/react.svg",
     label: "React",
     desc: "Library",
   },
   {
-    imgSrc: "/images/redux.svg",
+    imgSrc: "images/redux.svg",
     label: "Redux",
     desc: "State Management",
   },
   {
-    imgSrc: "/images/nextjs.svg",
+    imgSrc: "images/nextjs.svg",
     label: "NextJS",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/angular.svg",
+    imgSrc: "images/angular.svg",
     label: "Angular",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/nestjs.svg",
+    imgSrc: "images/nestjs.svg",
     label: "NestJS",
     desc: "Framework",
   },
 
   {
-    imgSrc: "/images/ngrx.svg",
+    imgSrc: "images/ngrx.svg",
     label: "NGRX",
     desc: "State Management",
   },
 
   {
-    imgSrc: "/images/javascript.svg",
+    imgSrc: "images/javascript.svg",
     label: "JavaScript",
     desc: "Language",
   },
   {
-    imgSrc: "/images/typescript.svg",
+    imgSrc: "images/typescript.svg",
     label: "Typesript",
     desc: "Language",
   },
   {
-    imgSrc: "/images/nodejs.svg",
+    imgSrc: "images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
   },
   {
-    imgSrc: "/images/expressjs.svg",
+    imgSrc: "images/expressjs.svg",
     label: "ExpressJS",
     desc: "Node Framework",
   },
   {
-    imgSrc: "/images/mongodb.svg",
+    imgSrc: "images/mongodb.svg",
     label: "MongoDB",
     desc: "Database",
   },
   {
-    imgSrc: "/images/sql.svg",
+    imgSrc: "images/sql.svg",
     label: "SQL",
     desc: "Database",
   },
   {
-    imgSrc: "/images/tailwindcss.svg",
+    imgSrc: "images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/git.svg",
+    imgSrc: "images/git.svg",
     label: "GIT",
     desc: "Version Control",
   },
   {
-    imgSrc: "/images/css3.svg",
+    imgSrc: "images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/python.svg",
+    imgSrc: "images/python.svg",
     label: "Python",
     desc: "Language",
   },
   {
-    imgSrc: "/images/java.svg",
+    imgSrc: "images/java.svg",
     label: "Java",
     desc: "Language",
   },
   {
-    imgSrc: "/images/jest.svg",
+    imgSrc: "images/jest.svg",
     label: "Jest",
     desc: "Testing Framework",
   },
