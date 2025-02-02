@@ -18,11 +18,11 @@ const About = () => {
           <p className="text-zinc-300 mb- md:mb-8 md:text-xl md:max-w-[60ch]">
             Welcome! I&apos;m Deeksha Sareen, a Full Stack Developer with a
             passion for building scalable, high-performance web applications.
-            With expertise in Angular, RxJS, NestJS, and MongoDB, I craft
-            seamless user experiences and robust backend systems. I thrive on
-            solving complex problems, optimizing performance, and continuously
-            learning new technologies to drive innovation. Let’s build something
-            amazing together!
+            With expertise in React, Redux, Angular, RxJS, NestJS and MongoDB, I
+            craft seamless user experiences and robust backend systems. I thrive
+            on solving complex problems, optimizing performance, and
+            continuously learning new technologies to drive innovation. Let’s
+            build something amazing together!
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

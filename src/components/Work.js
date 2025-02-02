@@ -35,7 +35,7 @@ const works = [
   },
   {
     imgSrc: "./images/old_portfolio.png",
-    title: "Personal Portfolio",
+    title: "Personal Portfolio (2022)",
     tags: ["Web-design", "Development", "React", "Javascript", "CSS", "Node"],
     projectLink: "https://github.com/DeekshaSareen-code/mydidactictrial",
   },
@@ -44,6 +44,12 @@ const works = [
     title: "Covid Contact Tracer",
     tags: ["Java", "Development", "Junit", "SQL"],
     projectLink: "https://github.com/DeekshaSareen-code/covid-contact-tracer",
+  },
+  {
+    imgSrc: "./new_portfolio.jpg",
+    title: "Portfolio Website(2025)",
+    tags: ["Development", "React"],
+    projectLink: "https://github.com/DeekshaSareen-code/my_portfolio",
   },
 ];
 const Work = () => {
