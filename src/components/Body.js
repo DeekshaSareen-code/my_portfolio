@@ -48,7 +48,7 @@ const Body = () => {
             <div className="absolute inset-0 bg-gradient-to-l from-zinc-900 via-transparent to-zinc-900 "></div>
 
             <img
-              src="my_portfolio/images/deeksha.jpg"
+              src="./images/deeksha.jpg"
               alt="Deeksha Sareen"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-110 "
               width={450}
