@@ -34,7 +34,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/deeks25",
   },
   {
     label: "Medium",
