@@ -4,94 +4,94 @@ import { ButtonOutline } from "./Button";
 
 const skillItem = [
   {
-    imgSrc: "my_portfolio/images/react.svg",
+    imgSrc: "./images/react.svg",
     label: "React",
     desc: "Library",
   },
   {
-    imgSrc: "my_portfolio/images/redux.svg",
+    imgSrc: "./images/redux.svg",
     label: "Redux",
     desc: "State Management",
   },
   {
-    imgSrc: "my_portfolio/images/nextjs.svg",
+    imgSrc: "./images/nextjs.svg",
     label: "NextJS",
     desc: "Framework",
   },
   {
-    imgSrc: "my_portfolio/images/angular.svg",
+    imgSrc: "./images/angular.svg",
     label: "Angular",
     desc: "Framework",
   },
   {
-    imgSrc: "my_portfolio/images/nestjs.svg",
+    imgSrc: "./images/nestjs.svg",
     label: "NestJS",
     desc: "Framework",
   },
 
   {
-    imgSrc: "my_portfolio/images/ngrx.svg",
+    imgSrc: "./images/ngrx.svg",
     label: "NGRX",
     desc: "State Management",
   },
 
   {
-    imgSrc: "my_portfolio/images/javascript.svg",
+    imgSrc: "./images/javascript.svg",
     label: "JavaScript",
     desc: "Language",
   },
   {
-    imgSrc: "my_portfolio/images/typescript.svg",
+    imgSrc: "./images/typescript.svg",
     label: "Typesript",
     desc: "Language",
   },
   {
-    imgSrc: "my_portfolio/images/nodejs.svg",
+    imgSrc: "./images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
   },
   {
-    imgSrc: "my_portfolio/images/expressjs.svg",
+    imgSrc: "./images/expressjs.svg",
     label: "ExpressJS",
     desc: "Node Framework",
   },
   {
-    imgSrc: "my_portfolio/images/mongodb.svg",
+    imgSrc: "./images/mongodb.svg",
     label: "MongoDB",
     desc: "Database",
   },
   {
-    imgSrc: "my_portfolio/images/sql.svg",
+    imgSrc: "./images/sql.svg",
     label: "SQL",
     desc: "Database",
   },
   {
-    imgSrc: "my_portfolio/images/tailwindcss.svg",
+    imgSrc: "./images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "my_portfolio/images/git.svg",
+    imgSrc: "./images/git.svg",
     label: "GIT",
     desc: "Version Control",
   },
   {
-    imgSrc: "my_portfolio/images/css3.svg",
+    imgSrc: "./images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "my_portfolio/images/python.svg",
+    imgSrc: "./images/python.svg",
     label: "Python",
     desc: "Language",
   },
   {
-    imgSrc: "my_portfolio/images/java.svg",
+    imgSrc: "./images/java.svg",
     label: "Java",
     desc: "Language",
   },
   {
-    imgSrc: "my_portfolio/images/jest.svg",
+    imgSrc: "./images/jest.svg",
     label: "Jest",
     desc: "Testing Framework",
   },
@@ -117,7 +117,7 @@ const Skill = () => {
           ))}
           <div className="flex flex-col items-center mt-5">
             <ButtonOutline
-              href="my_portfolio/assets/Deeksha_Resume.pdf"
+              href="./assets/Deeksha_Resume.pdf"
               label="AND MORE"
               icon="read_more"
               target="_blank"

@@ -39,7 +39,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="my_portfolio/images/logo.jpg"
+              src="./images/logo.jpg"
               alt="Logo"
               width={30}
               height={30}
