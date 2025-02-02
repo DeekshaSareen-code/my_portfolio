@@ -4,17 +4,17 @@ import { ButtonOutline } from "./Button";
 
 const skillItem = [
   {
-    imgSrc: "images/react.svg",
+    imgSrc: "my_portfolio/images/react.svg",
     label: "React",
     desc: "Library",
   },
   {
-    imgSrc: "images/redux.svg",
+    imgSrc: "my_portfolio/images/redux.svg",
     label: "Redux",
     desc: "State Management",
   },
   {
-    imgSrc: "images/nextjs.svg",
+    imgSrc: "my_portfolio/images/nextjs.svg",
     label: "NextJS",
     desc: "Framework",
   },
