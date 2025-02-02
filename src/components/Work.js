@@ -46,9 +46,9 @@ const works = [
     projectLink: "https://github.com/DeekshaSareen-code/covid-contact-tracer",
   },
   {
-    imgSrc: "./new_portfolio.jpg",
+    imgSrc: "./new_portfolio.png",
     title: "Portfolio Website(2025)",
-    tags: ["Development", "React"],
+    tags: ["Development", "React", "CSS", "JavaScript"],
     projectLink: "https://github.com/DeekshaSareen-code/my_portfolio",
   },
 ];
