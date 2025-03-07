@@ -51,6 +51,19 @@ const works = [
     tags: ["Development", "React", "CSS", "JavaScript"],
     projectLink: "https://github.com/DeekshaSareen-code/my_portfolio",
   },
+  {
+    imgSrc: "./image/netflix_gpt.png",
+    title: "Netflix GPT",
+    tags: [
+      "Redux",
+      "React",
+      "Tailwind",
+      "JavaScript",
+      "OpenAI",
+      "Firebase auth",
+    ],
+    projectLink: "https://github.com/DeekshaSareen-code/netflix-gpt",
+  },
 ];
 const Work = () => {
   return (
