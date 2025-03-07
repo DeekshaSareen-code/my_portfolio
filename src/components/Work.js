@@ -3,6 +3,12 @@ import WordCard from "./WordCard";
 
 const works = [
   {
+    imgSrc: "./images/netflix_gpt.png",
+    title: "Netflix GPT",
+    tags: ["Redux", "React", "Tailwind", "JavaScript", "OpenAI", "Firebase"],
+    projectLink: "https://github.com/DeekshaSareen-code/netflix-gpt",
+  },
+  {
     imgSrc: "./images/secret_santa_app.jpg",
     title: "Secret Santa App",
     tags: ["SCSS", "Typescript", "HTML", "Angular", "SQL", "NestJS"],
@@ -50,19 +56,6 @@ const works = [
     title: "Portfolio Website(2025)",
     tags: ["Development", "React", "CSS", "JavaScript"],
     projectLink: "https://github.com/DeekshaSareen-code/my_portfolio",
-  },
-  {
-    imgSrc: "./image/netflix_gpt.png",
-    title: "Netflix GPT",
-    tags: [
-      "Redux",
-      "React",
-      "Tailwind",
-      "JavaScript",
-      "OpenAI",
-      "Firebase auth",
-    ],
-    projectLink: "https://github.com/DeekshaSareen-code/netflix-gpt",
   },
 ];
 const Work = () => {
