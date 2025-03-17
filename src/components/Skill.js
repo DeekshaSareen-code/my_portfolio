@@ -71,6 +71,11 @@ const skillItem = [
     desc: "User Interface",
   },
   {
+    imgSrc: "./images/jwt.svg",
+    label: "JsonWebToken",
+    desc: "Authentication",
+  },
+  {
     imgSrc: "./images/git.svg",
     label: "GIT",
     desc: "Version Control",

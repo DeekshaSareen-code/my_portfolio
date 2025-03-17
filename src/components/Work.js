@@ -15,6 +15,12 @@ const works = [
     projectLink: "https://github.com/DeekshaSareen-code/secret-santa-app",
   },
   {
+    imgSrc: "./images/jwt_react.png",
+    title: "JWT implementation",
+    tags: ["React", "Javascript", "Jsonwebtoken", "Express"],
+    projectLink: "https://github.com/DeekshaSareen-code/jwt-react",
+  },
+  {
     imgSrc: "./images/olympic_dashboard_1.png",
     title: "Olympic Analytics Dashboard",
     tags: ["Python", "Matplotlib", "Numpy", "Pandas", "Dash"],
